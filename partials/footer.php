@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md">
-                <span>Tri-Devs</span>
-                <small class="d-block mb-3 text-muted">&copy; 2019</small>
+                <span>Intern-Connect</span>
+                <small class="d-block mb-3 text-muted">&copy; 2020</small>
             </div>
             <div class="col-6 col-md">
                 <h5>Internships</h5>

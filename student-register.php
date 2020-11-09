@@ -23,7 +23,7 @@ $obj = new dataOperaion;
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Tri-Devs | Register</title>
+    <title>Intern-Connect | Register</title>
 </head>
 
 <body>
@@ -35,9 +35,9 @@ $obj = new dataOperaion;
             <div class="col-md-12 my-4">
                 <div class="alert alert-success" role="alert">
                     <h4 class="alert-heading">Registration Succesful!</h4>
-                    <p>Aww yeah, you successfully registered with internshala.</p>
+                    <p>You successfully registered with internshala.</p>
                     <hr>
-                    <p class="mb-0">You can now move to login and check out internships that suit to you <a href="student-auth.php"> Login</a></p>
+                    <p class="mb-0">You can now move to login and check out internships that suit you ! <a href="student-auth.php"> Login</a></p>
                 </div>
             </div>
         </div>';
@@ -184,7 +184,7 @@ $obj = new dataOperaion;
                                         </div>
                                         <div class="col-md-5">
                                             <div class="form-group">
-                                                <label for="institute_state">Insitiute State</label>
+                                                <label for="institute_state">Institute State</label>
                                                 <select name="institute_state" id="institute_state" class="form-control select2" required>
                                                     <?php
                                                     $states = $obj->fetch("indian_states");

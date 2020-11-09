@@ -22,7 +22,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1){
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/login.css">
 
-    <title>Tri-Devs | Login as Employer</title>
+    <title>Intern-Connect | Login as Employer</title>
 </head>
 
 <body class="text-center">
@@ -33,7 +33,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1){
             echo '<div class="row">
             <div class="col-md-12 my-2">
                 <div class="alert alert-danger" role="alert">
-                    <h4 class="alert-heading">Snap!</h4>
+                    <h4 class="alert-heading">Login Error!</h4>
                     <p>username or password is incorrect</p>
                     <hr>
                     <p class="mb-0">you want login as student? <a href="student-auth.php"> Login</a></p>
@@ -43,9 +43,10 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1){
             unset($_SESSION['login_status']);
         } ?>
         <a href="index.php" class="brand-logo">
-            <h4>Tri-Devs</h4>
-            <!-- <img src="./assets/images/logo.svg" alt="Karaamozi" style="height: 80px;"> -->
+            <h4>Intern-Connect</h4>
+            <!-- <img src="./assets/images/logo.svg" alt="Intern-Connect" style="height: 80px;"> -->
         </a>
+        <div class="container shadow p-3 mb-5 bg-white rounded">
         <p class="text-muted">Employer Login</p>
         <h1 class="h3 mb-3 font-weight-normal">Login to Your Account</h1>
         <div class="form-group">
@@ -59,6 +60,9 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1){
         <button class="btn btn-lg btn-primary btn-block mb-3" type="submit" name="employer_login">Sign in</button>
         <span>OR</span>
         <a href="employer-registration.php" class="btn btn-lg btn-dark btn-block mt-3">Register</a>
+            
+        </div>
+       
     </form>
     </div>
     <!-- Container -->

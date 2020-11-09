@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Tri-Devs | <?= $title ?> Internship > <?= $company_name ?> </title>
+    <title>Intern-Connect | <?= $title ?> Internship > <?= $company_name ?> </title>
 </head>
 
 <body>
@@ -77,8 +77,8 @@ if (isset($_GET['id'])) {
                     echo '<div class="row">
                         <div class="col-md-12 my-4">
                             <div class="alert alert-success" role="alert">
-                                <h4 class="alert-heading">Wayy!</h4>
-                                <p>Your application is its way</p>
+                                <h4 class="alert-heading">Application Successful!</h4>
+                                <p>Your application is on its way</p>
                             </div>
                         </div>
                     </div>';

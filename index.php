@@ -22,7 +22,7 @@ include('./partials/session-manager.php');
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Tri-Devs | Equip yourself</title>
+    <title>Intern-Connect | Equip yourself</title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@ include('./partials/session-manager.php');
             echo '
             <div class="row py-3">
             <div class="col-md-10 m-auto">
-                <div class="card">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
                     <div class="card-body">
                         <h3>No Internships Posted Yet.</h3>
                         <hr>
@@ -78,7 +78,7 @@ include('./partials/session-manager.php');
         ?>
         <div class="row py-3">
             <div class="col-md-10 m-auto">
-            <div class="card">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
                     <div class="card-body">
                         <h4 class="py-2"><a href="internship-details.php?id=<?= $internship_id ?>"><?= $title ?></a></h4>
                         <h6 class="card-subtitle mb-2 text-muted"><?= $company_name ?></h6>

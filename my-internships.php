@@ -22,7 +22,7 @@ include('./partials/employer-auth-control.php');
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Karaamozi | My Internships</title>
+    <title>Intern-Connext | My Internships</title>
 </head>
 
 <body>

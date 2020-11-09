@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a href="index.php" class="pl-md-6rem brand-logo">
-    <h4>Tri-Devs</h4>
-    <!-- <img src="./assets/images/logo.svg" alt="Tri-Devs" style="height: 40px;"> -->
+    <h4>Intern-Connect</h4>
+    <!-- <img src="./assets/images/logo.svg" alt="Intern-Connect" style="height: 40px;"> -->
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

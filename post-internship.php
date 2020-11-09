@@ -25,7 +25,7 @@ include('./partials/employer-auth-control.php');
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Karaamozi | Internships that matter</title>
+    <title>Intern-Connext | Internships that matter</title>
 </head>
 
 <body>
@@ -37,7 +37,7 @@ include('./partials/employer-auth-control.php');
             <div class="col-md-12 my-4">
                 <div class="alert alert-success" role="alert">
                     <h4 class="alert-heading">Registration Succesful!</h4>
-                    <p>Aww yeah, you successfully registered with us.</p>
+                    <p>You successfully registered with us.</p>
                     <hr>
                     <p class="mb-0">You can now move to login and post internships for free! <a href="employer-auth.php"> Login</a></p>
                 </div>

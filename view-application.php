@@ -41,7 +41,7 @@ if (isset($_GET['id']) && isset($_GET['s_id'])) {
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Karaamozi | View Application</title>
+    <title>Intern-Connect | View Application</title>
 </head>
 
 <body>

@@ -22,7 +22,7 @@ include('./partials/student-auth-control.php');
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Karaamozi | My Applications</title>
+    <title>Intern-Connect | My Applications</title>
 </head>
 
 <body>
@@ -83,9 +83,9 @@ include('./partials/student-auth-control.php');
                 $class = 'bg-success text-white';
             }
 
-            $company_name = $employer['company_name'];
-            $about_company = $employer['about'];
-            $company_url = $employer['company_url'];
+            // $company_name = $employer['company_name'];
+            // $about_company = $employer['about'];
+            // $company_url = $employer['company_url'];
             ?>
 
             <div class="row py-3">
@@ -96,7 +96,7 @@ include('./partials/student-auth-control.php');
                         </div>
                         <div class="card-body">
                             <h4 class="py-2"><a href="internship-details.php?id=<?= $internship_id ?>"><?= $title ?></a></h4>
-                            <h6 class="card-subtitle mb-2 text-muted"><?= $company_name ?></h6>
+                        
                             <h6 class="card-subtitle my-4 text-muted">Location(s):
                                 <?php
                                     $sql = "SELECT * FROM internship_locations il INNER JOIN locations l ON il.location_id = l.id WHERE il.internship_id = $internship_id";
